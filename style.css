@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+ }
+
+h1 {
+	color: #fff;
+	font-family: Lato;
+	padding: 10px;  
+}
+
+.header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/header.jpg);  
+	height: 100vh;
+	background-size: cover;
+	background-position: center; 
+} 
+ header p {
+ 	padding: 20px; 
+ 	color: #fff;
+ 	font-family: Lato;
+ 	word-spacing: 2px;
+ 	letter-spacing: 0.5px;
+ }
+
+ header img {
+ 	width: 400px;
+ 	height: 400px;
+ 	padding: 20px;
+ 	border-radius: 200px;
+} 
+
+.p1 {
+	margin-left: 50px;
+}
+
+.p2 {
+	margin-left: 100px;
+}		
+
+/* BUTTON */
+
+.nbutton1:link,
+.nbutton1:visited {
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.nbutton1:hover,
+.nbutton1:active {
+    background-color: red;
+}
+
+.nbutton2:link,
+.nbutton2:visited {
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.nbutton2:hover,
+.nbutton2:active {
+    background-color: yellow;
+}
+
+.nbutton3:link,
+.nbutton3:visited {
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.nbutton3:hover,
+.nbutton3:active {
+    background-color: green;
+} 
+
+
+
+
+
