@@ -14,19 +14,24 @@ h1 {
 	background-size: cover;
 	background-position: center; 
 } 
- header p {
+
+header p {
  	padding: 20px; 
  	color: #fff;
  	font-family: Lato;
  	word-spacing: 2px;
  	letter-spacing: 0.5px;
- }
+}
 
  header img {
  	width: 400px;
  	height: 400px;
  	padding: 20px;
  	border-radius: 200px;
+}
+
+.images {
+	text-align: center;
 } 
 
 .p1 {

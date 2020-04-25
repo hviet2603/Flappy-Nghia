@@ -4,27 +4,30 @@
     box-sizing: border-box;
 }
 
-header {
+body {
      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/nghia3.jpg);
      height: 100vh;
      background-size: cover;
      background-position: center;
 }
 
-#canvas {
-    padding: 50px;
-    padding-bottom: 10px;
+.instruction, .play-ground {
+    text-align: center;
+    width: 100%;
 }
 
-header h3 {
+.instruction {
+    height: 37px;
+    color: white;
+    float: left;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+h3 {
     padding-left: 50px;
     padding-top: 10px;
     color: white;
 }
 
-header p {
-    color: white;
-    float: right;
-    font-size: 30px;
-    transform: translate(-100px,200px);
-}
+
